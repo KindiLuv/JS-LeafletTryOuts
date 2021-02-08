@@ -2,14 +2,36 @@
 <html>
 
 <head>
+    <title>Mazmorra's Tourist Office</title>
+
+<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="scripts/leaflet/leaflet.js"></script>
+
+<link rel="stylesheet" href="scripts/leaflet/leaflet.css"></link>
 
 </head>
 
-<body>
-    
-    <div id="map">
+<body style="height: 100%; margin: 0;">
 
-    </div>
+    <div id="map" style="width: 100%; height: 100%; background: #888888; margin: 0;"></div>
+    <script type="text/javascript">
+
+    // Declare Map Object
+    var map = L.map('map').setView([0, 0],1);
+
+    // Reference the Tiles
+    L.tileLayer('./media/MapTiles/{z}/{x}/{y}.png', {
+        minZoom: 1,
+        maxZoom: 4,
+        noWrap: true
+    }).addTo(map);
+
+    // Add markers, pop-ups and else.
+    var marker = L.marker([0.0,0.0]).addTo(map);
+    marker.bindPopup('<b>You are here</b>');
+    
+    </script>
 
 </body>
 
