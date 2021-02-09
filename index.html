@@ -7,7 +7,6 @@
 <meta name ="viewport" content="width=device-width, initial-scale=1.0">
 
 <script src="scripts/leaflet/leaflet.js"></script>
-<script src="scripts/Map.js"></script>
 
 <link rel="stylesheet" href="scripts/leaflet/leaflet.css"></link>
 
@@ -49,10 +48,11 @@
             draggable: true
         }).addTo(map);
         marker.bindPopup('<b>You are here</b>');
-        
+
         // cheat to get easy lng and lat
         marker.on('dragend', function(e){
-            alert(e.latlng);
+            //alert(marker.getLatLng().toString());
+            marker.getPopup().setContent(marker.getLatLng().toString());
         });
     </script>
 
