@@ -1,0 +1,13 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-29.075375,58.886719]
+        },
+        "properties": {
+            "name": "Starting City"
+        }
+    }]
+}
