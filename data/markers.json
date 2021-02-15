@@ -7,7 +7,118 @@
             "coordinates": [-29.075375,58.886719]
         },
         "properties": {
+            "id" : 1,
             "name": "Starting City"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-27.839076,71.963093]
+        },
+        "properties": {
+            "id": 2,
+            "name": "Salt Desert of Noralgrad"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-39.666605,74.91582]
+        },
+        "properties": {
+            "id": 3,
+            "name": "Career's woods"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-41.376809,39.761693]
+        },
+        "properties": {
+            "id": 4,
+            "name": "Monastery Isle"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-15.792252,47.178689]
+        },
+        "properties": {
+            "id": 5,
+            "name": "Dwarven Mines of Noralgrad"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [1.669686, 67.816438]
+        },
+        "properties": {
+            "id": 6,
+            "name": "Caving River"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-43.184351, 55.372787]
+        },
+        "properties": {
+            "id": 7,
+            "name": "Monastery Lake"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-24.62305, 54.316547]
+        },
+        "properties": {
+            "id": 8,
+            "name": "Crypt of Noralgrad"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-29.428114, 25.210925]
+        },
+        "properties": {
+            "id": 9,
+            "name": "Minor Monastery Isles"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-27.449788, 16.985463]
+        },
+        "properties": {
+            "id": 10,
+            "name": "Ronka Beach"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [4.53043, 110.935588]
+        },
+        "properties": {
+            "id": 11,
+            "name": "Noralgrad's Eastern mountain range"
         }
     }]
 }
