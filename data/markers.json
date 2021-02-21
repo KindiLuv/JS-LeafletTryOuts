@@ -7,7 +7,7 @@
             "coordinates": [-29.075375,58.886719]
         },
         "properties": {
-            "id" : 1,
+            "id": 1,
             "name": "Starting City"
         }
     },
@@ -108,6 +108,413 @@
         "properties": {
             "id": 10,
             "name": "Ronka Beach"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [4.53043, 110.935588]
+        },
+        "properties": {
+            "id": 11,
+            "name": "Noralgrad's Eastern mountain range"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [46.417796, 128.847656]
+        },
+        "properties": {
+            "id": 12,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [25.496043, 140.976563]
+        },
+        "properties": {
+            "id": 13,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [5.64185, 166.113281]
+        },
+        "properties": {
+            "id": 14,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [11.777943, 165.410156]
+        },
+        "properties": {
+            "id": 15,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [19.552315, 164.091797]
+        },
+        "properties": {
+            "id": 16,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [28.215349, 166.376953]
+        },
+        "properties": {
+            "id": 17,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [34.510426, 158.642578]
+        },
+        "properties": {
+            "id": 18,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [73.316209, 157.851563]
+        },
+        "properties": {
+            "id": 19,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [64.837351, 137.460938]
+        },
+        "properties": {
+            "id": 20,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [54.153372, 148.007813]
+        },
+        "properties": {
+            "id": 21,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [69.767072, 81.914063]
+        },
+        "properties": {
+            "id": 22,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-9.449062, 25.664063]
+        },
+        "properties": {
+            "id": 23,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-20.626772, 22.675781]
+        },
+        "properties": {
+            "id": 24,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-30.589285, 10.371094]
+        },
+        "properties": {
+            "id": 25,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-0.883641, 43.769531]
+        },
+        "properties": {
+            "id": 26,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [24.349645, 69.257813]
+        },
+        "properties": {
+            "id": 27,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [36.293475, 112.5]
+        },
+        "properties": {
+            "id": 28,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-8.75518, 84.375]
+        },
+        "properties": {
+            "id": 29,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [23.062806, 50.449219]
+        },
+        "properties": {
+            "id": 30,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [,]
+        },
+        "properties": {
+            "id": ,
+            "name": ""
         }
     },
     {
