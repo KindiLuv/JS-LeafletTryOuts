@@ -120,5 +120,225 @@
             "id": 11,
             "name": "Noralgrad's Eastern mountain range"
         }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [58.964113, 11.144536]
+        },
+        "properties": {
+            "id": 51,
+            "name": "Evil Forest North"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [58.002192, -2.882811]
+        },
+        "properties": {
+            "id": 52,
+            "name": "Abyssal Temple"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [61.435833, -5.484372]
+        },
+        "properties": {
+            "id": 53,
+            "name": "Despair River Observatory"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [63.762999, -0.70312]
+        },
+        "properties": {
+            "id": 54,
+            "name": "River of Despair"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [52.99516, -1.476556]
+        },
+        "properties": {
+            "id": 55,
+            "name": "Evil Wood"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [61.334868, 38.250012]
+        },
+        "properties": {
+            "id": 56,
+            "name": "Frozen lake"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [51.383533, 25.998046]
+        },
+        "properties": {
+            "id": 57,
+            "name": "Forward post of the Evil Swamp"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [50.048816, 21.498045]
+        },
+        "properties": {
+            "id":58,
+            "name": "Entrance to the Evil Forest"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [48.598869, -6.521485]
+        },
+        "properties": {
+            "id": 59,
+            "name": "Foot of the mountain of death"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [63.306037, 17.332032]
+        },
+        "properties": {
+            "id": 60,
+            "name": "Northern Border"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [43.251496, -6.08203]
+        },
+        "properties": {
+            "id": 61,
+            "name": "Hermit of Death Mountain"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [46.680665, 6.57422]
+        },
+        "properties": {
+            "id": 62,
+            "name": "South Evil Forest"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [45.804784, 49.113286]
+        },
+        "properties": {
+            "id": 63,
+            "name": "Bamboo Forest"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [52.092455, 77.255865]
+        },
+        "properties": {
+            "id": 64,
+            "name": "Old bamboo village"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-71.233023, -140.396484]
+        },
+        "properties": {
+            "id": 65,
+            "name": "Destroyed city at the end of the world"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [49.09781, 32.695313]
+        },
+        "properties": {
+            "id": 66,
+            "name": "Village of the Evil Swamp"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-68.199405, -131.378905]
+        },
+        "properties": {
+            "id": 67,
+            "name": "Mountain at the end of the world"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [-68.51045, -125.121094]
+        },
+        "properties": {
+            "id": 68,
+            "name": "Mine at the end of the world"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [50.980247, 51.996097]
+        },
+        "properties": {
+            "id": 69,
+            "name": "Bamboo Village"
+        }
+    },
+    {
+        "type": "Marker",
+        "geometry":{
+            "type": "Point",
+            "coordinates": [40.211879, 83.285159]
+        },
+        "properties": {
+            "id": 70,
+            "name": "Old Port of the bamboos"
+        }
     }]
 }
