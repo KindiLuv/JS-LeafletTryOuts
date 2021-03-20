@@ -22,6 +22,16 @@ const parseMarkers = async () => {
   }
 };
 
+const parsePolygons = async () => {
+  try {
+    const requestResult = await fetch('../data/polygons.json');
+    const polygons = await requestResult.json();
+    return polygons;
+  } catch(e){
+    console.error(e);
+  }
+};
+
 function parsemark(map){
   $.ajax({
     dataType: 'json',
