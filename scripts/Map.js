@@ -1,38 +1,4 @@
-function drawMap() {
-  // Variables
-  var mapSW = L.LatLng(-79.1, -180),
-    mapNE = L.LatLng(79.1, 180),
-    bounds = L.LatLngBounds(mapSW, mapNE);
-
-  // Declare Map Object
-  var map = L.map("map").setView([0, 0], 1);
-
-  // Reference the Tiles
-  L.tileLayer("./media/MapTiles/{z}/{x}/{y}.png", {
-    minZoom: 1,
-    maxZoom: 4,
-    continuousWorld: true,
-    noWrap: true,
-    crs: L.CRS.Simple,
-    bounds: [
-      [-79.1, -176],
-      [79.1, 176],
-    ],
-    maxBoundViscosity: 1.0,
-  }).addTo(map);
-
-  // Proper map display
-  map.fitBounds([
-    [
-      [-128, -128],
-      [128, 128],
-    ],
-  ]);
-  map.setMaxBounds([
-    [-79.1, -176],
-    [79.1, 176],
-  ]);
-
+function createLocationMarker(map) {
   // Add markers, pop-ups and else.
   var marker = L.marker([0, 0], {
     draggable: true,
@@ -43,5 +9,30 @@ function drawMap() {
   marker.on("dragend", function (e) {
     //alert(marker.getLatLng().toString());
     marker.getPopup().setContent(marker.getLatLng().toString());
+  });
+}
+
+const parseMarkers = async () => {
+  try {
+    const requestResult = await fetch('../data/markers.json');
+    const markers = await requestResult.json();
+    return markers;
+  } catch(e){
+    console.error(e);
+  }
+};
+
+function parsemark(map){
+  $.ajax({
+    dataType: 'json',
+    url: '/data/markers.json',
+    success: function(data){
+      console.log(data.features[0].geometry.coordinates);
+      for(var int = 0; int < 70; ++int){
+        var point = L.marker(data.features[int].geometry.coordinates,{/*option*/ opacity: 0}).addTo(map);
+        point.bindPopup("<b>"+data.features[int].properties.name);
+      }
+    }
+
   });
 }
