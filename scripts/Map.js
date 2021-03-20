@@ -36,3 +36,18 @@ function parsemark(map){
 
   });
 }
+
+function parsepolygon(map){
+  $.ajax({
+    dataType: 'json',
+    url: '/data/polygons.json',
+    success: function(data){
+      console.log(data.features[0].geometry.coordinates);
+      for(var int = 0; int < 70; ++int){
+        var point = L.marker(data.features[int].geometry.coordinates,{/*option*/ opacity: 0}).addTo(map);
+        point.bindPopup("<b>"+data.features[int].properties.name);
+      }
+    }
+
+  });
+}
