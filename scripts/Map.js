@@ -12,29 +12,42 @@ function createLocationMarker(map) {
   });
 }
 
-function parsemark(map){
-  $.ajax({
-    dataType: 'json',
-    url: '/data/markers.json',
-    success: function(data){
-      console.log(data.features[0].geometry.coordinates);
-      for(var int = 0; int < 70; ++int){
-        var point = L.marker(data.features[int].geometry.coordinates,{/*option*/ visibility: visible, opacity: 0}).addTo(map);
-        point.bindPopup("<b>"+data.features[int].properties.name);
+function parsemarker(map, markersCheckbox){
+  if (markersCheckbox.checked == true) {
+    $.ajax({
+      dataType: 'json',
+      url: '/data/markers.json',
+      success: function(data){
+        for(var i = 0; i < 70; ++i){
+          var point = L.marker(data.features[i].geometry.coordinates,{/*option*/ opacity: 1}).addTo(map);
+          point.bindPopup("<b>"+data.features[i].properties.name);
+        }
       }
-    }
-  });
+    });
+  }
+  else {
+    $.ajax({
+      dataType: 'json',
+      url: '/data/markers.json',
+      success: function(data){
+        for(var i = 0; i < 70; ++i){
+          var point = L.marker(data.features[i].geometry.coordinates,{/*{option*/ opacity: 0}).addTo(map);
+          point.bindPopup("<b>"+data.features[i].properties.name);
+        }
+      }
+    });
+  }
 }
 
-function parsepolygon(map){
+function parsepolygon(map, markersCheckbox){
   $.ajax({
     dataType: 'json',
     url: '/data/polygons.json',
     success: function(data){
       console.log(data.features[0].geometry.coordinates);
-      for(var int = 0; int < 70; ++int){
-        var polygon = L.marker(data.features[int].geometry.coordinates,{/*option*/ opacity: 0}).addTo(map);
-        polygon.bindPopup("<b>"+data.features[int].properties.name);
+      for(var i = 0; i < 70; ++i){
+        var polygon = L.polygon(data.features[i].geometry.coordinates,{/*option*/ opacity: 1}).addTo(map);
+        polygon.bindPopup("<b>"+data.features[i].properties.name);
       }
     }
   });
