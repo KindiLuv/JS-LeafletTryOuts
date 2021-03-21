@@ -12,26 +12,6 @@ function createLocationMarker(map) {
   });
 }
 
-const parseMarkers = async () => {
-  try {
-    const requestResult = await fetch('../data/markers.json');
-    const markers = await requestResult.json();
-    return markers;
-  } catch(e){
-    console.error(e);
-  }
-};
-
-const parsePolygons = async () => {
-  try {
-    const requestResult = await fetch('../data/polygons.json');
-    const polygons = await requestResult.json();
-    return polygons;
-  } catch(e){
-    console.error(e);
-  }
-};
-
 function parsemark(map){
   $.ajax({
     dataType: 'json',
@@ -39,7 +19,7 @@ function parsemark(map){
     success: function(data){
       console.log(data.features[0].geometry.coordinates);
       for(var int = 0; int < 70; ++int){
-        var point = L.marker(data.features[int].geometry.coordinates,{/*option*/ opacity: 0}).addTo(map);
+        var point = L.marker(data.features[int].geometry.coordinates,{/*option*/ visibility: visible, opacity: 0}).addTo(map);
         point.bindPopup("<b>"+data.features[int].properties.name);
       }
     }
