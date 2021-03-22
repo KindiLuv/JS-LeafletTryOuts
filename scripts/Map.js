@@ -48,7 +48,7 @@ function parsepolygon(map){
         var polygon = L.polygon(data.features[i].geometry.coordinates,{/*option*/ opacity: 1});
         polygon.bindPopup("<b>"+data.features[i].properties.name);
         allPoly.push(polygon);
-        $('#tickmap').append("<input type='checkbox' name='markersCheckbox' id='" + i + "' class='polygonesLayers'> <label for='markers'>" + i/*`${data.features[i].properties.name}`*/ + "</label>")
+        $('#tickmap').append("<input type='checkbox' name='markersCheckbox' id='" + i + "' class='polygonesLayers'> <label for='markers'>" + `${data.features[i].properties.name}` + "</label>")
       }
       $('.polygonesLayers').change(function f(){
         var id = this.id;
@@ -62,6 +62,3 @@ function parsepolygon(map){
     }
   });
 }
-
-
-

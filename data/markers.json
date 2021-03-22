@@ -129,7 +129,7 @@
         },
         "properties": {
             "id": 12,
-            "name": ""
+            "name": "Old Mountains"
         }
     },
     {
@@ -140,7 +140,7 @@
         },
         "properties": {
             "id": 13,
-            "name": ""
+            "name": "Hedonite's realms"
         }
     },
     {
@@ -151,7 +151,7 @@
         },
         "properties": {
             "id": 14,
-            "name": ""
+            "name": "Klebs Volcano"
         }
     },
     {
@@ -162,7 +162,7 @@
         },
         "properties": {
             "id": 15,
-            "name": ""
+            "name": "Theb Volcano"
         }
     },
     {
@@ -173,7 +173,7 @@
         },
         "properties": {
             "id": 16,
-            "name": ""
+            "name": "Gates of inferum"
         }
     },
     {
@@ -184,7 +184,7 @@
         },
         "properties": {
             "id": 17,
-            "name": ""
+            "name": "Natek Volcano"
         }
     },
     {
@@ -195,7 +195,7 @@
         },
         "properties": {
             "id": 18,
-            "name": ""
+            "name": "Darvan Volcano"
         }
     },
     {
@@ -206,7 +206,7 @@
         },
         "properties": {
             "id": 19,
-            "name": ""
+            "name": "Hell"
         }
     },
     {
@@ -217,7 +217,7 @@
         },
         "properties": {
             "id": 20,
-            "name": ""
+            "name": "Broken Isles"
         }
     },
     {
@@ -228,7 +228,7 @@
         },
         "properties": {
             "id": 21,
-            "name": ""
+            "name": "Unbroken Bridge"
         }
     },
     {
@@ -239,7 +239,7 @@
         },
         "properties": {
             "id": 22,
-            "name": ""
+            "name": "Frozen Rapture"
         }
     },
     {
@@ -250,7 +250,7 @@
         },
         "properties": {
             "id": 23,
-            "name": ""
+            "name": "Seykon river"
         }
     },
     {
@@ -261,7 +261,7 @@
         },
         "properties": {
             "id": 24,
-            "name": ""
+            "name": "Ronka Bridge"
         }
     },
     {
@@ -272,7 +272,7 @@
         },
         "properties": {
             "id": 25,
-            "name": ""
+            "name": "Ronka Edge"
         }
     },
     {
@@ -283,7 +283,7 @@
         },
         "properties": {
             "id": 26,
-            "name": ""
+            "name": "Ronka Forest"
         }
     },
     {
@@ -294,7 +294,7 @@
         },
         "properties": {
             "id": 27,
-            "name": ""
+            "name": "Northern mounts of Noralgrad"
         }
     },
     {
@@ -305,7 +305,7 @@
         },
         "properties": {
             "id": 28,
-            "name": ""
+            "name": "The horseway"
         }
     },
     {
@@ -316,7 +316,7 @@
         },
         "properties": {
             "id": 29,
-            "name": ""
+            "name": "Desert of Noralgrad"
         }
     },
     {
@@ -327,7 +327,7 @@
         },
         "properties": {
             "id": 30,
-            "name": ""
+            "name": "Crauli Sea"
         }
     },
     {
@@ -349,7 +349,7 @@
       },
       "properties": {
         "id": 32,
-        "name": "the cursed river"
+        "name": "The cursed river"
       }
     },
     {
@@ -360,7 +360,7 @@
       },
       "properties": {
         "id": 33,
-        "name": "mountains of truth"
+        "name": "Mountains of truth"
       }
     },
     {
@@ -371,7 +371,7 @@
       },
       "properties": {
         "id": 34,
-        "name": "place"
+        "name": "Frozen Pikes"
       }
     },
     {
@@ -382,7 +382,7 @@
       },
       "properties": {
         "id": 35,
-        "name": "place"
+        "name": "Neirveikar Taiga"
       }
     },
     {
@@ -393,7 +393,7 @@
       },
       "properties": {
         "id": 36,
-        "name": "place"
+        "name": "Neirveikar Flatlands"
       }
     },
     {
@@ -404,7 +404,7 @@
       },
       "properties": {
         "id": 37,
-        "name": "place"
+        "name": "First clover"
       }
     },
     {
@@ -415,7 +415,7 @@
       },
       "properties": {
         "id": 38,
-        "name": "place"
+        "name": "Circle of Khaine"
       }
     },
     {
@@ -426,7 +426,7 @@
       },
       "properties": {
         "id": 39,
-        "name": "place"
+        "name": "Underground civilisation of ???"
       }
     },
     {
@@ -437,7 +437,7 @@
       },
       "properties": {
         "id": 40,
-        "name": "place"
+        "name": "SweetLake"
       }
     },
     {
@@ -448,7 +448,7 @@
       },
       "properties": {
         "id": 41,
-        "name": "place"
+        "name": "SweeterPlace"
       }
     },
     {
@@ -459,7 +459,7 @@
       },
       "properties": {
         "id": 42,
-        "name": "place"
+        "name": "Highest Peaks"
       }
     },
     {
@@ -470,7 +470,7 @@
       },
       "properties": {
         "id": 43,
-        "name": "place"
+        "name": "Sweet Mesa"
       }
     },
     {
@@ -481,7 +481,7 @@
       },
       "properties": {
         "id": 44,
-        "name": "place"
+        "name": "Nurgling Bog"
       }
     },
     {
@@ -492,7 +492,7 @@
       },
       "properties": {
         "id": 45,
-        "name": "place"
+        "name": "Eldar Peninsula"
       }
     },
     {
@@ -503,7 +503,7 @@
       },
       "properties": {
         "id": 46,
-        "name": "place"
+        "name": "The Dormant Hills"
       }
     },
     {
@@ -514,7 +514,7 @@
       },
       "properties": {
         "id": 47,
-        "name": "place"
+        "name": "Father Hills"
       }
     },
     {
@@ -525,7 +525,7 @@
       },
       "properties": {
         "id": 48,
-        "name": "place"
+        "name": "Nurgle's bog"
       }
     },
     {
@@ -536,7 +536,7 @@
       },
       "properties": {
         "id": 49,
-        "name": "place"
+        "name": "Lake of neverending wars"
       }
     },
     {
@@ -547,7 +547,7 @@
       },
       "properties": {
         "id": 50,
-        "name": "place"
+        "name": "Boat Cemetary"
       }
     },
     {
