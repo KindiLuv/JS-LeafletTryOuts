@@ -1,17 +1,26 @@
 var allPoly = [];
-
+var allMark = [];
 
 function createLocationMarker(map) {
   // Add markers, pop-ups and else.
   var marker = L.marker([0, 0], {
     draggable: true,
   }).addTo(map);
-  marker.bindPopup("<b>You are here</b>");
+  marker.bindPopup("<b>I am a guide marker!</b>");
 
-  // cheat to get easy lng and lat
+  // Pythagore is our friend now
   marker.on("dragend", function (e) {
-    //alert(marker.getLatLng().toString());
-    marker.getPopup().setContent(marker.getLatLng().toString());
+    var distMin = null;
+    var closestMarker = null;
+    var posMarker = marker.getLatLng();
+    allMark.forEach(element => {
+      let distTemp = posMarker.distanceTo(element.getLatLng())
+      if(distMin == null || distTemp < distMin) {
+        distMin = distTemp;
+        closestMarker = element;
+      }
+    });
+    marker.getPopup().setContent(closestMarker._popup._content);
   });
 }
 
@@ -21,8 +30,9 @@ function parsemark(map){
       url: '/data/markers.json',
       success: function(data){
         for(var i = 0; i < 70; ++i){
-          var point = L.marker(data.features[i].geometry.coordinates,{/*option*/ opacity: 1}).addTo(map);
+          var point = L.marker(data.features[i].geometry.coordinates,{/*option*/ opacity: 0}).addTo(map);
           point.bindPopup("<b>"+data.features[i].properties.name);
+          allMark.push(point);
         }
       }
     });
